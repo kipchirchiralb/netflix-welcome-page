@@ -68,7 +68,7 @@ nav {
   align-items: center;
 }
 nav .logo {
-  height: 50%;
+  height: 70%;
 }
 nav .logo img {
   height: 100%;
@@ -82,7 +82,7 @@ nav .sign-in-btn {
 }
 main {
   height: 80%;
-  width: 60%;
+  width: 70%;
   margin: 50px auto;
   display: flex;
   justify-content: center;
@@ -119,6 +119,10 @@ main h1 {
   height: 2rem;
   width: 70%;
   padding: 10px;
+  color: black;
+}
+.email-cta input[type="email"]:focus {
+  outline: none;
 }
 .email-cta button {
   width: 30%;
@@ -185,7 +189,16 @@ main h1 {
   display: flex;
   flex-direction: column;
 }
+
+.links1 div {
+  margin: 10px 0;
+  font-weight: 50;
+}
 .links1 a {
   text-decoration: none;
+  color: #c4c8cc;
   font-size: 0.8rem;
+}
+.links1 a:hover {
+  text-decoration: underline;
 }
