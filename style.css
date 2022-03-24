@@ -105,6 +105,7 @@ main h1 {
 }
 
 .email-cta {
+  text-align: center;
   margin: 10px;
   font-size: 18px;
   font-weight: 200;
@@ -196,7 +197,7 @@ main h1 {
 }
 .links1 a {
   text-decoration: none;
-  color: #c4c8cc;
+  color: #757575;
   font-size: 0.8rem;
 }
 .links1 a:hover {
